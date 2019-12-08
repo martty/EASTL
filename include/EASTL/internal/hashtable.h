@@ -413,7 +413,7 @@ namespace eastl
 	/// Default value for rehash policy. Bucket size is (usually) the
 	/// smallest prime that keeps the load factor small enough.
 	///
-	struct EASTL_API prime_rehash_policy
+	struct prime_rehash_policy
 	{
 	public:
 		float            mfMaxLoadFactor;
